@@ -1,0 +1,1 @@
+select * from ANALYTICS.DBT_VK.ORDER_COLOR
