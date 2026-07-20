@@ -44,5 +44,10 @@ models:
     # Applies to all files under models/
     staging:
       +materialized: view
+      +tags: ['priority']
     marts:
       +materialized: table
+      +tags: ['medium']
+    custom:
+      +materialized: table
+      +tags: ['low']
